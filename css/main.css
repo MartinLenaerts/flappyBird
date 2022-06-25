@@ -1,0 +1,29 @@
+#container{
+    display:flex;
+}
+
+#canvas{
+    margin:auto;
+    border-radius: 10px;
+}
+
+header{
+    text-align: center;
+}
+
+.score-container{
+    display:flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 1rem;
+    font-size: 20px;
+}
+
+#bestScore, #currentScore {
+    font-weight: bold;
+}
+
+body{
+    background: darkgrey;
+    font-family: Courier, serif;
+}
